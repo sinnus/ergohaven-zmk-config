@@ -135,7 +135,7 @@
   &kp TILDE       &kp LT          &kp EQUAL         &kp GT            &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
   &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                     &kp PRCNT  &hmr RSHFT LBRC  &hmr RCTRL SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
   &kp HASH        &kp STAR        &kp COLON         &kp FSLH          &kp AMPS                     &kp AT     &kp PIPE         &kp COMMA        &kp DOT         &kp QMARK
-                                                    &trans            &trans     &trans    &trans  &none      &trans
+                                                    &trans            &mo 5      &trans    &trans  &none      &trans
             >;
         };
 
@@ -144,7 +144,7 @@
   &en TILDE               &en LT          &kp EQUAL         &en GT            &en GRAVE                    &en CARET  &en LBKT  &kp UNDER           &en RBKT    &en DLLR
   &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                     &kp PRCNT  &en LBRC  &hmr LCTRL RU_SEMI  &en RBRC    &hmr RGUI EXCL
   &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH       &kp AMPS                     &en AT     &en PIPE  &kp RU_COMMA        &en RU_DOT  &kp RU_QMARK
-                                                            &trans            &trans     &trans    &trans  &none      &trans
+                                                            &trans            &mo 5      &trans    &trans  &none      &trans
             >;
         };
 
