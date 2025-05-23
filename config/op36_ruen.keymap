@@ -101,9 +101,9 @@
             #binding-cells = <1>;
             bindings =
                 <&to_en>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 500>,
                 <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 500>,
                 <&to_ru>;
 
             label = "EN";
