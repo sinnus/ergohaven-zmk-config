@@ -147,19 +147,19 @@
 
         sym_en {
             bindings = <
-  &kp TILDE       &kp LT          &kp EQUAL         &kp GT            &kp GRAVE                     &kp CARET  &kp DQT                  &kp UNDER        &kp HASH                 &kp AMPERSAND
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                      &kp PRCNT  &hmr RSHFT LEFT_BRACKET  &hmr RCTRL SEMI  &hmr LALT RIGHT_BRACKET  &hmr RGUI EXCL
-  &kp PIPE        &kp STAR        &kp COLON         &kp FSLH          &kp DOLLAR                    &kp AT     &kp SQT                  &kp COMMA        &kp DOT                  &kp QMARK
-                                                    &trans            &mo 5       &trans    &trans  &none      &trans
+  &kp TILDE       &kp LT          &kp EQUAL         &kp GT            &kp GRAVE                            &kp CARET  &kp DQT                  &kp UNDER        &kp HASH                 &kp AMPERSAND
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                             &kp PRCNT  &hmr RSHFT LEFT_BRACKET  &hmr RCTRL SEMI  &hmr LALT RIGHT_BRACKET  &hmr RGUI EXCL
+  &kp PIPE        &kp STAR        &kp COLON         &kp FSLH          &kp DOLLAR                           &kp AT     &kp SQT                  &kp COMMA        &kp DOT                  &kp QMARK
+                                                    &trans            &mo 5       &kp RU_NUMERO    &trans  &none      &trans
             >;
         };
 
         sym_ru {
             bindings = <
-  &en TILDE               &en LT          &kp EQUAL         &en GT            &en GRAVE                     &en CARET  &en DQT           &kp UNDER           &en HASH           &en AMPERSAND
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                      &kp PRCNT  &en LEFT_BRACKET  &hmr LCTRL RU_SEMI  &en RIGHT_BRACKET  &hmr RGUI EXCL
-  &en PIPE                &kp STAR        &kp RU_COLON      &kp RU_FSLH       &en DOLLAR                    &en AT     &en SQT           &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
-                                                            &trans            &mo 5       &trans    &trans  &none      &trans
+  &en TILDE               &en LT          &kp EQUAL         &en GT            &en GRAVE                            &en CARET  &en DQT           &kp UNDER           &en HASH           &en AMPERSAND
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LCTRL MINUS  &hml LSHIFT RPAR  &kp PLUS                             &kp PRCNT  &en LEFT_BRACKET  &hmr LCTRL RU_SEMI  &en RIGHT_BRACKET  &hmr RGUI EXCL
+  &en PIPE                &kp STAR        &kp RU_COLON      &kp RU_FSLH       &en DOLLAR                           &en AT     &en SQT           &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
+                                                            &trans            &mo 5       &kp RU_NUMERO    &trans  &none      &trans
             >;
         };
 
