@@ -100,11 +100,7 @@
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
-                <&to_en>,
-                <&macro_wait_time 500>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_wait_time 500>,
-                <&to_ru>,
+                <&to_en &macro_param_1to1 &kp MACRO_PLACEHOLDER &to_ru>,
                 <&macro_press>;
 
             label = "EN";
