@@ -85,6 +85,30 @@
             bindings = <&kp LC(X)>;
             key-positions = <21 23>;
         };
+
+        lbraceen {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <12 13>;
+            layers = <0>;
+        };
+
+        rbraceen {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
+
+        lbraceru {
+            bindings = <&en LEFT_BRACE>;
+            key-positions = <12 13>;
+            layers = <1>;
+        };
+
+        rbraceru {
+            bindings = <&en RIGHT_BRACE>;
+            key-positions = <16 17>;
+            layers = <1>;
+        };
     };
 
     macros {
