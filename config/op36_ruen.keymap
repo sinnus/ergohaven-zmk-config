@@ -115,14 +115,14 @@
         to_ru: to_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(N9))>;
+            bindings = <&kp LS(LC(N9))>;
             label = "TO_RU";
         };
 
         to_en: to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LS(N8))>;
+            bindings = <&kp LS(LC(N8))>;
             label = "TO_EN";
         };
 
